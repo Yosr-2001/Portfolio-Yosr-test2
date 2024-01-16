@@ -229,10 +229,10 @@
             const modalContent = modal.querySelector('.modal-content'); let message = '';
             if (scoreHTML >= 5) {
                 message = 'Congratulations!';
-                imageSrc = "../images/successful_test.png";
+                imageSrc = "images/successful_test.png";
             } else {
                 message = 'Sorry! Try harder next time!';
-                imageSrc = "../images/failed_test.png";
+                imageSrc = "images/failed_test.png";
             }
             modalContent.innerHTML = `  <img src="${imageSrc}" alt="Image Description" class="dialogue-image" ><h3>${message}</h3>
             <span class="close">&times;</span>            <p>Your score is: ${scoreHTML} out of 10</p>        `;
